@@ -1,0 +1,47 @@
+div {
+    width: 100%;
+    height: 98vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+
+    form {
+
+    }
+}
+
+ul {
+    position: absolute;
+    top: 0;
+    right: 5%;
+    display: inline-flex;
+    gap: 10px;
+    li {   
+        list-style: none;
+        font-size: 15px;
+        display: inline;
+        }
+
+        a {
+            text-decoration: none;
+            color: blue;
+        }
+
+        form {
+            margin: auto;
+            display: flexbox;
+            align-items: center;
+            width: 100%;
+        }
+
+        #submitbtn {
+            align-self: center;
+        }
+
+        #searchinput {
+            width: 100%;
+        }
+}
+
+
