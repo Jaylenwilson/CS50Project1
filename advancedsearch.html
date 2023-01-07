@@ -13,7 +13,72 @@
 </head>
 
 <body>
+    <div class=" pagewrapper ">
+        <div class=" wrapper ">
+            <div class="linkholder  ">
+                <div class="d-flex align-items-center justify-content-end">
 
+                    <span class="navbar-text">
+                        <li><a href="project1.html">Back</a></li>
+                    </span>
+                </div>
+            </div>
+        </div>
+        <div class="advancedbar">
+            <label style="margin-left:10px"> Advanced Search</label>
+        </div>
+        <div class="seperator"></div>
+        <div class="formdiv ">
+            <p style="
+                display: inline-block;
+                min-width: 167px;
+                width: 16%;
+                font-size: 16px;
+                min-height: 42px;
+                font-weight: 500;
+                color: #333;
+                vertical-align: middle">Find pages with...</p>
+
+            <form class="advanced-form " action="https://www.google.com/search">
+                <div class="row d-flex mb-3">
+                    <div class="col-md-2 ">
+                        <label for="searchby">all these words:</label>
+                    </div>
+                    <div class="col-md-6">
+                        <input id="searchby" type="text" name="as_q">
+                    </div>
+                </div>
+                <div class="row mb-3">
+                    <div class="col-md-2 ">
+                        <label for="searchby">this exact word or phrase:</label>
+                    </div>
+                    <div class="col-md-6">
+                        <input id="searchby" type="text" name="as_epq">
+                    </div>
+                </div>
+                <div class="row mb-3">
+                    <div class="col-md-2">
+                        <label for="searchby">any of these words:</label>
+                    </div>
+                    <div class="col-md-6">
+                        <input id="searchby" type="text" name="as_oq">
+                    </div>
+                </div>
+                <div class="row mb-4">
+                    <div class="col-md-2">
+                        <label for="searchby">none these words:</label>
+                    </div>
+                    <div class="col-md-6">
+                        <input id="searchby" type="text" name="as_eq">
+                    </div>
+                </div>
+                <div class="seperator"></div>
+                <br />
+                <br />
+                <input class="" id="advancedsubmit" type="submit" value="advanced search">
+            </form>
+        </div>
+    </div>
 </body>
 
 </html>

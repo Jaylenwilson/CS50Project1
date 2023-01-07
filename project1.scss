@@ -49,14 +49,137 @@ h1 {
 }
 
 #searchinput {
-    line-height: 44px;
+    display: flex;
+    z-index: 3;
+    height: 44px;
+    background: #fff;
+    border: 1px solid #dfe1e5;
+    box-shadow: none;
+    border-radius: 24px;
+    margin: 0 auto;
+    width: 638px;
+    width: auto;
+    max-width: 584px
 }
+
+#submitbtn {
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    color: #3c4043;
+    font-family: Roboto,arial,sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none
+}
+
+img {
+    max-height: 100%;
+    max-width: 100%;
+    object-fit: contain;
+    object-position: center bottom;
+    width: 320px;
+}
+
+.googlecontainer {
+    margin-top: 5px;
+}
+
+.pagewrapper {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.wrapper {
+    display: flex;
+    align-items: center;
+    padding: 6px;
+}
+
+.linkholder {
+    display: inline-block;
+    flex-grow: 1;
+}
+
+.item {
+    display: inline-block;
+    line-height: 24px;
+    vertical-align: middle;
+    color: black;
+    padding-right: 15px;
+}
+
 li {
     list-style: none;
     white-space: nowrap;
     overflow: hidden;
+    padding-right: 15px;
+    line-height: 24px;
+    font-size: 13px;
+
     a {
         text-decoration: none;
+        color: black;
     }
 }
 
+.advancedbar {
+    color: #d93025;
+    font-size: 20px;
+    margin: 25px 35px
+}
+
+.seperator {
+    border-bottom: 1px solid #ebebeb;
+}
+
+.formdiv {
+    max-width: 1140px;
+    min-width: 200px;
+    width: 96%;
+    margin: 40px 2% 0 45px;
+}
+
+#searchby {
+    border-radius: 1px;
+    border: 1px solid #d9d9d9;
+    border-top: 1px solid #c0c0c0;
+    font-size: 13px;
+    height: 29px;
+    padding: 1px 8px;
+    width: 100%;
+}
+
+.advancedform {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-weight: inherit;
+    font-style: inherit;
+    font-size: 100%;
+    vertical-align: baseline;
+    text-decoration: none;
+}
+
+label {
+    font-size: 13px;
+}
+
+#advancedsubmit {
+    background-color: #4d90fe;
+    border: 1px solid #3079ed;
+    color: #fff;
+    user-select: none;
+    line-height: 100%;
+    height: 30px;
+    min-width: 120px;
+    float: right;
+    margin: 10px 0;
+}
